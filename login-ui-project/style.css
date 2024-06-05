@@ -1,0 +1,64 @@
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+body {
+    animation: fade-in 1s ease-out;
+}
+@media (max-width: 768px) {
+    #login-box {
+        min-width: 250px;
+    }
+}
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border-radius: 15%;
+            background-image: url('cute.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: transform 0.3s ease-in-out;
+    
+        }
+        
+         body:hover{
+            transform: scale(1.5);
+         }
+        #login-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(129, 43, 43, 0.214);
+            border-radius: 25px;
+            box-shadow: 0 0 10px rgba(154, 24, 24, 0.758);
+            padding: 20px;
+            min-width: 300px;
+        }
+
+        #login-box input {
+            margin-bottom: 10px;
+          ;
+        }
+
+        #login-box button:hover {
+            margin-top: 10px;
+            background-color: rgba(152, 36, 158, 0.127);
+            border-radius: 25px;
+
+        }
+
+        #password {
+            -webkit-text-security: disc;
+        }
+       
