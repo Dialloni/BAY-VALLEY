@@ -1,0 +1,35 @@
+html, body{
+    margin: 0;
+}
+
+
+.my-container{
+border: 5px solid red;
+height: 100vh;
+width: 100vw;
+}
+.my-row-email{
+border: 5px solid green;
+height: 100%;
+}
+.my-coldiallo{
+border: 2px solid blue;
+background-color: azure;
+height: 100vh;
+}
+
+.half-height{
+    min-height: 100vh;
+    border: 1px solid blue;
+
+}
+
+@media (max-width: 800px) {
+    .my-coldiallo{
+        min-height: 50vh;
+        
+    }
+    .half-height{
+        min-height: 50vh;
+    }
+}
