@@ -1,35 +1,33 @@
-html, body{
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.my-container {
+    height: 100vh;
+    padding: 0;
+}
+
+.my-row-email {
+    height: calc(100% - 3rem); /* Adjust for header height */
     margin: 0;
 }
 
-
-.my-container{
-border: 5px solid red;
-height: 100vh;
-width: 100vw;
-}
-.my-row-email{
-border: 5px solid green;
-height: 100%;
-}
-.my-coldiallo{
-border: 2px solid blue;
-background-color: azure;
-height: 100vh;
+.my-coldiallo {
+    background-color: azure;
+    padding: 0;
+    height: 100%;
 }
 
-.half-height{
-    min-height: 100vh;
-    border: 1px solid blue;
-
+.h-100 {
+    height: 100%;
 }
 
 @media (max-width: 800px) {
-    .my-coldiallo{
+    .my-coldiallo {
         min-height: 50vh;
-        
     }
-    .half-height{
+    .half-height {
         min-height: 50vh;
     }
 }
